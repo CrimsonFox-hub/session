@@ -5,7 +5,7 @@ echo.
 REM Проверяем наличие Python
 python --version >nul 2>&1
 if errorlevel 1 (
-    echo ❌ Ошибка: Python не установлен или не добавлен в PATH
+    echo  Ошибка: Python не установлен или не добавлен в PATH
     pause
     exit /b 1
 )
@@ -26,7 +26,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 echo.
-echo ✅ Установка завершена!
+echo  Установка завершена!
 echo.
 echo Следующие шаги:
 echo 1. Получите токен бота у @BotFather в Telegram

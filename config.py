@@ -5,14 +5,14 @@ load_dotenv()
 
 class Config:
     TELEGRAM_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+    
+    if not TELEGRAM_TOKEN:
+        print(" ошибка: TELEGRAM_BOT_TOKEN не найден в .env файле!")
+        
     LOG_FILE = 'trading_logs.txt'
-    
-    # Настройки моделей
-    TRAINING_PERIOD = '2y'  # Период данных для обучения
-    FORECAST_DAYS = 30      # Дней для прогноза
-    TEST_SIZE = 0.2         # Доля тестовой выборки
-    
-    # Параметры моделей
+    TRAINING_PERIOD = '2y'
+    FORECAST_DAYS = 30
+    TEST_SIZE = 0.2
     RIDGE_ALPHA = 1.0
     RF_ESTIMATORS = 100
     ARIMA_ORDER = (5, 1, 0)
