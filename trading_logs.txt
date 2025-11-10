@@ -1,0 +1,638 @@
+2025-11-09 23:36:04 | User: 5900945902 | Ticker: AAPL | Investment: $1000.0 | Model: Ridge | Metric: 1.91 | Profit: $35068151.52
+2025-11-09 23:39:38 | User: 5900945902 | Ticker: AAPL | Investment: $1000.0 | Model: Ridge | Metric: 3.79 | Profit: $0.00
+2025-11-09 23:45:53 | User: 5900945902 | Ticker: AAPL | Investment: $1000.0 | Model: Ridge | Metric: 3.79 | Profit: $0.00
+2025-11-09 23:49:11 | User: 5900945902 | Ticker: AAPL | Investment: $1000.0 | Model: Ridge | Metric: 3.79 | Profit: $0.00
+2025-11-09 23:56:01 | User: 5900945902 | Ticker: AAPL | Investment: 1000₽ | Model: Ridge | Metric: 3.79 | Profit: 0₽
+2025-11-10 01:01:43 | User: 5900945902 | Ticker: AAPL | Investment: 1000₽ | Model: Ridge | Metric: 3.79 | Profit: 0₽
+2025-11-10 20:40:37 | User: 5900945902 | Ticker: AAPL | Investment: 1000₽ | Model: Ridge | Metric: 3.81 | Profit: 0₽
+2025-11-10 20:41:36 | User: 5900945902 | Ticker: AAPL | Investment: 100000₽ | Model: Ridge | Metric: 3.81 | Profit: 0₽
+2025-11-10 21:27:47 | User: 5900945902 | Ticker: AAPL | Investment: 100000₽ | Model: Ridge | Metric: 3.80 | Profit: 0₽
+2025-11-10 21:41:12 | User: 5900945902 | Ticker: AAPL | Investment: 100000₽ | Model: ridge | Metric: 3.80 | Profit: 0₽
+2025-11-10 21:54:40 | User: 5900945902 | Ticker: AAPL | Investment: 100000₽ | Model: ridge | Metric: 3.80 | Profit: 799₽
+2025-11-10 22:07:18 | User: 5900945902 | Ticker: AAPL | Investment: 100000₽ | Model: ridge | Metric: 3.80 | Profit: 12893₽
+2025-11-10 22:39:59 | User: 5900945902 | Ticker: AAPL | Investment: 100000₽ | Model: ridge | Metric: 3.80 | Profit: 3076₽
+2025-11-10 22:52:34,497 - bot.core - ERROR - Критическая ошибка при запуске бота: 'StockAnalysisBot' object has no attribute 'start'
+2025-11-10 23:06:44,326 - bot.core - ERROR - Критическая ошибка при запуске бота: 'StockAnalysisBot' object has no attribute 'start'
+2025-11-10 23:06:52,654 - bot.core - ERROR - Критическая ошибка при запуске бота: 'StockAnalysisBot' object has no attribute 'start'
+2025-11-10 23:07:04,024 - bot.core - ERROR - Критическая ошибка при запуске бота: 'StockAnalysisBot' object has no attribute 'start'
+2025-11-10 23:07:58,789 - bot.core - ERROR - Критическая ошибка при запуске бота: 'StockAnalysisBot' object has no attribute 'start'
+2025-11-10 23:12:50,307 - bot.core - INFO - Бот запущен...
+2025-11-10 23:12:50,562 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getMe "HTTP/1.1 200 OK"
+2025-11-10 23:12:50,643 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-10 23:12:50,644 - telegram.ext.Application - INFO - Application started
+2025-11-10 23:13:00,888 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:13:10,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:13:20,160 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:13:20,439 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:13:21,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:13:21,290 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:13:21,405 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:13:21 | User: 5900945902 | Ticker: AAPL | Investment: 100000₽ | Model: В разработке | Metric: N/A | Profit: 0₽
+2025-11-10 23:13:21,406 - bot.core - INFO - Запись в лог: 2025-11-10 23:13:21 | User: 5900945902 | Ticker: AAPL | Investment: 100000₽ | Model: В разработке | Metric: N/A | Profit: 0₽
+2025-11-10 23:13:30,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:13:40,349 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:13:50,437 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:14:00,525 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:14:10,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:14:20,686 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:14:30,776 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:14:40,867 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:14:50,962 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:14:54,807 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:14:55,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:15:04,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:15:14,978 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:15:25,072 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:15:35,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:15:37,293 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-11-10 23:15:37,293 - telegram.ext.Application - INFO - Application.stop() complete
+2025-11-10 23:15:37,294 - telegram.ext.Updater - ERROR - Error while getting Updates: httpx.ReadError: 
+2025-11-10 23:15:37,295 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<StockAnalysisBot.shutdown() done, defined at D:\papki\ucheba\Magistrate\3_semester\time_series\session\bot\core.py:180> exception=RuntimeError('This Updater is still running!')>
+Traceback (most recent call last):
+  File "D:\papki\ucheba\Magistrate\3_semester\time_series\session\bot\core.py", line 185, in shutdown
+    await self.application.shutdown()
+  File "D:\papki\ucheba\Magistrate\3_semester\time_series\session\stock_bot_env\Lib\site-packages\telegram\ext\_application.py", line 534, in shutdown
+    await self.updater.shutdown()
+  File "D:\papki\ucheba\Magistrate\3_semester\time_series\session\stock_bot_env\Lib\site-packages\telegram\ext\_updater.py", line 199, in shutdown
+    raise RuntimeError("This Updater is still running!")
+RuntimeError: This Updater is still running!
+2025-11-10 23:15:37,296 - bot.core - ERROR - Ошибка: httpx.ReadError: 
+2025-11-10 23:15:38,309 - telegram.ext.Updater - ERROR - Error while getting Updates: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-11-10 23:15:38,309 - bot.core - ERROR - Ошибка: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-11-10 23:15:39,819 - telegram.ext.Updater - ERROR - Error while getting Updates: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-11-10 23:15:39,819 - bot.core - ERROR - Ошибка: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-11-10 23:15:42,084 - telegram.ext.Updater - ERROR - Error while getting Updates: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-11-10 23:15:42,084 - bot.core - ERROR - Ошибка: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-11-10 23:15:45,473 - telegram.ext.Updater - ERROR - Error while getting Updates: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-11-10 23:15:45,473 - bot.core - ERROR - Ошибка: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-11-10 23:21:26,744 - bot.core - INFO - Бот запущен...
+2025-11-10 23:21:27,046 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getMe "HTTP/1.1 200 OK"
+2025-11-10 23:21:27,140 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-10 23:21:27,141 - telegram.ext.Application - INFO - Application started
+2025-11-10 23:21:37,384 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:21:41,039 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:21:41,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:21:45,668 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:21:45,782 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:21:55,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:22:05,855 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:22:06,205 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:22:06,628 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:16,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:22:23,530 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:22:23,797 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:24,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:22:24,712 - bot.models - INFO - Модель ridge для AAPL загружена
+2025-11-10 23:22:24,805 - bot.models - INFO - Модель random_forest для AAPL загружена
+2025-11-10 23:22:24,809 - bot.models - INFO - Модель arima для AAPL загружена
+2025-11-10 23:22:25,182 - bot.models - INFO - LSTM модель для AAPL загружена
+2025-11-10 23:22:25,318 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:22:25,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:22:26,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendPhoto "HTTP/1.1 200 OK"
+2025-11-10 23:22:26,311 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:26,445 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:26,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:26 | User: 5900945902 | Ticker: AAPL | Investment: 10000₽ | Model: ridge | Metric: 3.80 | Profit: 586₽
+2025-11-10 23:22:26,575 - bot.core - INFO - Запись в лог: 2025-11-10 23:22:26 | User: 5900945902 | Ticker: AAPL | Investment: 10000₽ | Model: ridge | Metric: 3.80 | Profit: 586₽
+2025-11-10 23:22:33,613 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:22:42,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:22:42,827 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:43,206 - yfinance - ERROR - $SBER.ME: possibly delisted; no price data found  (period=2y)
+2025-11-10 23:22:43,368 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:43,542 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:52,577 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:22:58,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:22:58,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:58,868 - yfinance - ERROR - $GAZP.ME: possibly delisted; no price data found  (period=2y)
+2025-11-10 23:22:58,987 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:22:59,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:23:08,314 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:23:18,394 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:23:28,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:23:38,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:23:48,640 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:23:58,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:24:08,804 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:24:18,886 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:24:26,705 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:24:26,707 - bot.core - ERROR - Ошибка: 'NoneType' object has no attribute 'text'
+2025-11-10 23:24:34,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:24:34,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:24:35,955 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GAZP"}}}
+2025-11-10 23:24:36,773 - yfinance - ERROR - $GAZP: possibly delisted; no price data found  (period=2y) (Yahoo error = "No data found, symbol may be delisted")
+2025-11-10 23:24:36,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:24:37,182 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:24:44,354 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:24:45,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:24:46,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:24:46,621 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:24:46,643 - bot.models - INFO - Модель ridge для JPM сохранена
+2025-11-10 23:24:46,971 - bot.models - INFO - Модель random_forest для JPM сохранена
+2025-11-10 23:24:47,893 - bot.models - INFO - Модель arima для JPM сохранена
+2025-11-10 23:25:26,903 - bot.models - INFO - LSTM модель для JPM сохранена
+2025-11-10 23:25:31,228 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:25:31,576 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:25:31,772 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:25:32,599 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendPhoto "HTTP/1.1 200 OK"
+2025-11-10 23:25:32,732 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:25:32,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:25:32,953 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:25:32 | User: 5900945902 | Ticker: JPM | Investment: 10000₽ | Model: Ridge | Metric: 3.51 | Profit: 1034₽
+2025-11-10 23:25:32,954 - bot.core - INFO - Запись в лог: 2025-11-10 23:25:32 | User: 5900945902 | Ticker: JPM | Investment: 10000₽ | Model: Ridge | Metric: 3.51 | Profit: 1034₽
+2025-11-10 23:25:41,313 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:25:51,393 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:26:01,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:26:11,554 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:26:21,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:26:31,739 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:26:41,823 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:26:51,912 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:27:01,993 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:27:12,074 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:27:22,153 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:27:32,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:27:42,322 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:27:52,404 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:28:02,489 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:28:12,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:28:22,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:28:32,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:28:42,815 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:28:52,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:29:02,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:29:13,077 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:29:23,164 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:29:33,245 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:29:43,324 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:29:53,404 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:30:03,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:30:13,563 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:30:23,645 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:30:33,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:30:43,823 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:30:53,908 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:31:03,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:31:14,073 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:31:24,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:31:34,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:31:44,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:31:54,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:32:04,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:32:14,584 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:32:24,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:32:34,743 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:32:44,824 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:32:54,902 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:33:04,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:33:15,066 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:33:25,153 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:33:35,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:33:45,315 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:33:55,404 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:34:05,487 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:34:15,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:34:25,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:34:35,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:34:45,813 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:34:55,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:35:05,973 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:35:16,053 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:35:16,727 - bot.core - INFO - Бот запущен...  
+2025-11-10 23:35:16,996 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getMe "HTTP/1.1 200 OK"
+2025-11-10 23:35:17,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-10 23:35:17,086 - telegram.ext.Application - INFO - Application started
+2025-11-10 23:35:17,354 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-10 23:35:17,355 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-10 23:35:17,357 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-10 23:35:21,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-10 23:35:21,448 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-10 23:35:21,449 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-10 23:35:22,535 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-10 23:35:22,535 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-10 23:35:22,536 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-10 23:35:32,542 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:35:36,201 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:35:36,517 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:35:37,069 - bot.models - INFO - Модель ridge для JPM сохранена
+2025-11-10 23:35:37,254 - bot.models - INFO - Модель random_forest для JPM сохранена
+2025-11-10 23:35:37,297 - bot.models - INFO - Модель arima для JPM сохранена
+2025-11-10 23:35:53,461 - bot.models - INFO - LSTM модель для JPM сохранена
+2025-11-10 23:35:57,570 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:35:57,861 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:35:57,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:35:58,892 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendPhoto "HTTP/1.1 200 OK"
+2025-11-10 23:35:59,100 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:35:59,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:35:59,471 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:35:59 | User: 5900945902 | Ticker: JPM | Investment: 10000₽ | Model: Ridge | Metric: 3.51 | Profit: 420₽
+2025-11-10 23:35:59,472 - bot.core - INFO - Запись в лог: 2025-11-10 23:35:59 | User: 5900945902 | Ticker: JPM | Investment: 10000₽ | Model: Ridge | Metric: 3.51 | Profit: 420₽
+2025-11-10 23:36:07,661 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:36:15,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:36:15,962 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:36:23,884 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:36:24,193 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:36:24,479 - yfinance - ERROR - $SIBN.ME: possibly delisted; no price data found  (period=2y)
+2025-11-10 23:36:24,624 - yfinance - ERROR - $SIBN.ME: possibly delisted; no price data found  (period=1y)
+2025-11-10 23:36:24,781 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:36:24,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:36:33,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:36:38,784 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:36:39,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:36:39,392 - yfinance - ERROR - $MTSS.ME: possibly delisted; no price data found  (period=2y)
+2025-11-10 23:36:39,530 - yfinance - ERROR - $MTSS.ME: possibly delisted; no price data found  (period=1y)
+2025-11-10 23:36:39,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:36:39,721 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:36:44,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:36:44,486 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:36:44,780 - bot.models - INFO - Модель ridge для AAPL сохранена
+2025-11-10 23:36:44,994 - bot.models - INFO - Модель random_forest для AAPL сохранена
+2025-11-10 23:36:45,036 - bot.models - INFO - Модель arima для AAPL сохранена
+2025-11-10 23:37:03,151 - bot.models - INFO - LSTM модель для AAPL сохранена
+2025-11-10 23:37:07,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:37:08,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:37:08,392 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-10 23:37:09,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendPhoto "HTTP/1.1 200 OK"
+2025-11-10 23:37:09,385 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:37:09,513 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-10 23:37:09,613 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-10 23:37:09 | User: 5900945902 | Ticker: AAPL | Investment: 50000₽ | Model: Ridge | Metric: 3.71 | Profit: 4386₽
+2025-11-10 23:37:09,614 - bot.core - INFO - Запись в лог: 2025-11-10 23:37:09 | User: 5900945902 | Ticker: AAPL | Investment: 50000₽ | Model: Ridge | Metric: 3.71 | Profit: 4386₽
+2025-11-10 23:37:18,049 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:37:28,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:37:38,250 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:37:48,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:37:58,431 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:38:08,520 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:38:18,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:38:28,703 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:38:38,790 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:38:48,879 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:38:58,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:39:09,059 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:39:19,151 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:39:29,239 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:39:39,329 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:39:49,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:39:59,521 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:40:09,609 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:40:19,701 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:40:29,789 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:40:39,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:40:49,971 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:41:00,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:41:10,178 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:41:20,269 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:41:30,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:41:40,450 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:41:50,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:42:00,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:42:10,750 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:42:20,848 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:42:30,939 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:42:41,036 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:42:51,133 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:43:01,218 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:43:11,312 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:43:21,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:43:31,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:43:41,579 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:43:51,669 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:44:01,759 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:44:11,873 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:44:21,959 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:44:32,048 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:44:42,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:44:52,229 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:45:02,320 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:45:12,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:45:22,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:45:32,588 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:45:42,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:45:52,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:46:02,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:46:12,952 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:46:23,045 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:46:33,144 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:46:43,241 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:46:53,328 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:47:03,418 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-10 23:47:13,509 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:17:23,908 - bot.core - INFO - Бот запущен...
+2025-11-11 00:17:24,177 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getMe "HTTP/1.1 200 OK"
+2025-11-11 00:17:24,257 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-11 00:17:24,259 - telegram.ext.Application - INFO - Application started
+2025-11-11 00:17:34,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:17:37,554 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:17:37,864 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:17:38,363 - bot.models - INFO - Модель ridge для AAPL сохранена
+2025-11-11 00:17:38,554 - bot.models - INFO - Модель random_forest для AAPL сохранена
+2025-11-11 00:17:38,594 - bot.models - INFO - Модель arima для AAPL сохранена
+2025-11-11 00:17:55,120 - bot.models - INFO - LSTM модель для AAPL сохранена
+2025-11-11 00:17:59,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:17:59,390 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:17:59,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:17:59,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:17:59,754 - bot.core - ERROR - Ошибка обработки запроса: 'TradingEngine' object has no attribute 'find_trading_points_simple'
+2025-11-11 00:17:59,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:18:00,023 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:18:00,333 - bot.models - INFO - Модель ridge для JPM сохранена
+2025-11-11 00:18:00,519 - bot.models - INFO - Модель random_forest для JPM сохранена
+2025-11-11 00:18:00,561 - bot.models - INFO - Модель arima для JPM сохранена
+2025-11-11 00:18:17,133 - bot.models - INFO - LSTM модель для JPM сохранена
+2025-11-11 00:18:22,535 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:18:22,811 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:18:22,930 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:18:22,931 - bot.core - ERROR - Ошибка обработки запроса: 'TradingEngine' object has no attribute 'find_trading_points_simple'
+2025-11-11 00:18:23,062 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:18:32,621 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:18:42,713 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:18:52,803 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:19:02,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:19:12,982 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:19:23,072 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:19:33,163 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:19:43,262 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:19:53,353 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:20:03,441 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:20:26,088 - bot.core - INFO - Бот запущен...
+2025-11-11 00:20:26,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getMe "HTTP/1.1 200 OK"
+2025-11-11 00:20:26,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-11 00:20:26,415 - telegram.ext.Application - INFO - Application started
+2025-11-11 00:20:34,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:20:34,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:20:35,267 - bot.models - INFO - Модель ridge для JPM сохранена
+2025-11-11 00:20:35,454 - bot.models - INFO - Модель random_forest для JPM сохранена
+2025-11-11 00:20:35,498 - bot.models - INFO - Модель arima для JPM сохранена
+2025-11-11 00:20:51,755 - bot.models - INFO - LSTM модель для JPM сохранена
+2025-11-11 00:20:55,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:20:56,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:20:56,423 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:20:56,424 - bot.core - ERROR - Ошибка обработки запроса: 'TradingEngine' object has no attribute 'find_trading_points_simple'
+2025-11-11 00:20:56,624 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:21:05,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:21:16,050 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:21:26,131 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:21:36,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:21:46,312 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:21:56,417 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:22:06,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:22:16,594 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:22:26,686 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:22:36,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:22:43,194 - bot.core - INFO - Бот запущен...
+2025-11-11 00:22:43,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getMe "HTTP/1.1 200 OK"
+2025-11-11 00:22:43,551 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-11 00:22:43,552 - telegram.ext.Application - INFO - Application started
+2025-11-11 00:22:43,799 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:22:43,799 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:22:43,800 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:22:44,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:22:44,429 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:22:45,103 - bot.models - INFO - Модель ridge для JPM сохранена
+2025-11-11 00:22:45,328 - bot.models - INFO - Модель random_forest для JPM сохранена
+2025-11-11 00:22:45,379 - bot.models - INFO - Модель arima для JPM сохранена
+2025-11-11 00:22:54,893 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:23:04,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:23:09,117 - bot.models - INFO - LSTM модель для JPM сохранена
+2025-11-11 00:23:15,071 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:23:15,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:15,389 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:15,390 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:15,683 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:23:15,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:23:16,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:16,470 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:16,471 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:16,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendPhoto "HTTP/1.1 200 OK"
+2025-11-11 00:23:17,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:23:17,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:23:17,649 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-11 00:23:17 | User: 5900945902 | Ticker: JPM | Investment: 10000₽ | Model: Ridge | Metric: 3.51 | Profit: 322₽
+2025-11-11 00:23:17,650 - bot.core - INFO - Запись в лог: 2025-11-11 00:23:17 | User: 5900945902 | Ticker: JPM | Investment: 10000₽ | Model: Ridge | Metric: 3.51 | Profit: 322₽
+2025-11-11 00:23:20,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:20,557 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:20,558 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:22,148 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:22,148 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:22,150 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:26,742 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:26,743 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:26,743 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:29,079 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:29,080 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:29,080 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:34,416 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:34,417 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:34,418 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:37,889 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:37,890 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:37,891 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:41,356 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:41,357 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:41,358 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:46,680 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:46,681 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:46,681 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:51,982 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:51,983 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:51,984 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:59,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:23:59,854 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:23:59,854 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:07,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:24:07,718 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:07,718 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:17,716 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:24:19,370 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:24:19,371 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:19,371 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:23,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:24:23,474 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:23,475 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:30,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:24:40,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:24:40,830 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:24:40,830 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:40,831 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:44,934 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:24:44,935 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:44,936 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:24:51,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:25:02,026 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:25:10,842 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:25:10,843 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:25:10,843 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:25:14,944 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:25:14,946 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:25:14,946 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:25:21,946 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:25:32,036 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:25:42,125 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:25:45,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:25:45,214 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:25:45,215 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:25:49,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:25:49,310 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:25:49,310 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:25:56,314 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:26:06,405 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:26:07,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:26:07,426 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:26:08,136 - bot.models - INFO - Модель ridge для AAPL сохранена
+2025-11-11 00:26:08,347 - bot.models - INFO - Модель random_forest для AAPL сохранена
+2025-11-11 00:26:08,390 - bot.models - INFO - Модель arima для AAPL сохранена
+2025-11-11 00:26:27,943 - bot.models - INFO - LSTM модель для AAPL сохранена
+2025-11-11 00:26:29,563 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:26:32,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:26:32,473 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:26:32,473 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:32,474 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:32,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:26:32,952 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:26:32,954 - bot.core - ERROR - Ошибка обработки запроса: 'TradingEngine' object has no attribute 'find_trading_points_simple'
+2025-11-11 00:26:33,177 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:26:36,558 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:26:36,559 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:36,560 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:37,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:26:37,664 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:37,664 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:42,260 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:26:42,260 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:42,260 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:43,867 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:26:43,868 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:43,869 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:49,209 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:26:49,210 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:49,210 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:51,555 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:26:51,555 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:51,556 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:55,008 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:26:55,009 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:55,009 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:58,486 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:26:58,487 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:26:58,488 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:03,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:27:03,821 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:03,822 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:09,133 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:27:09,133 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:09,134 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:17,020 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:27:17,021 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:17,021 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:24,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:27:24,891 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:24,892 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:34,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:27:36,532 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:27:36,533 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:36,533 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:40,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 409 Conflict"
+2025-11-11 00:27:40,630 - telegram.ext.Updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:40,631 - bot.core - ERROR - Ошибка: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-11 00:27:47,634 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:28:00,157 - bot.core - INFO - Бот запущен...
+2025-11-11 00:28:00,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getMe "HTTP/1.1 200 OK"
+2025-11-11 00:28:00,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-11 00:28:00,489 - telegram.ext.Application - INFO - Application started
+2025-11-11 00:28:10,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:28:20,791 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:28:30,871 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:28:40,951 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:28:51,032 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:29:01,110 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:29:11,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:29:21,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:29:31,351 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:29:41,435 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:29:51,524 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:30:01,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:30:11,681 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:30:21,765 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:30:31,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:30:41,920 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:30:52,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:31:02,081 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:31:12,161 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:31:22,241 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:31:30,520 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:31:30,815 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:31:31,540 - bot.models - INFO - Модель ridge для AAPL сохранена
+2025-11-11 00:31:31,737 - bot.models - INFO - Модель random_forest для AAPL сохранена
+2025-11-11 00:31:31,777 - bot.models - INFO - Модель arima для AAPL сохранена
+2025-11-11 00:31:48,627 - bot.models - INFO - LSTM модель для AAPL сохранена
+2025-11-11 00:31:52,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:31:52,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:31:53,086 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:31:53,852 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendPhoto "HTTP/1.1 200 OK"
+2025-11-11 00:31:54,036 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:31:54,211 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:31:54,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-11 00:31:54 | User: 5900945902 | Ticker: AAPL | Investment: 50000₽ | Model: Ridge | Metric: 3.71 | Profit: 1570₽
+2025-11-11 00:31:54,368 - bot.core - INFO - Запись в лог: 2025-11-11 00:31:54 | User: 5900945902 | Ticker: AAPL | Investment: 50000₽ | Model: Ridge | Metric: 3.71 | Profit: 1570₽
+2025-11-11 00:32:02,683 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:32:12,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:32:22,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:32:32,921 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:32:43,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:32:53,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:32:57,216 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:32:57,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:32:57,917 - bot.models - INFO - Модель ridge для JPM сохранена
+2025-11-11 00:32:58,089 - bot.models - INFO - Модель random_forest для JPM сохранена
+2025-11-11 00:32:58,130 - bot.models - INFO - Модель arima для JPM сохранена
+2025-11-11 00:33:13,534 - bot.models - INFO - LSTM модель для JPM сохранена
+2025-11-11 00:33:17,369 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:33:17,634 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:33:17,756 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/editMessageText "HTTP/1.1 200 OK"
+2025-11-11 00:33:18,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendPhoto "HTTP/1.1 200 OK"
+2025-11-11 00:33:18,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:33:18,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/sendMessage "HTTP/1.1 200 OK"
+2025-11-11 00:33:18,811 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/deleteMessage "HTTP/1.1 200 OK"
+2025-11-11 00:33:18 | User: 5900945902 | Ticker: JPM | Investment: 10000₽ | Model: Ridge | Metric: 3.51 | Profit: 452₽
+2025-11-11 00:33:18,812 - bot.core - INFO - Запись в лог: 2025-11-11 00:33:18 | User: 5900945902 | Ticker: JPM | Investment: 10000₽ | Model: Ridge | Metric: 3.51 | Profit: 452₽
+2025-11-11 00:33:27,449 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:33:37,534 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:33:47,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:33:57,691 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:34:07,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:34:17,851 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:34:27,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:34:38,012 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:34:48,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:34:58,170 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:35:08,251 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:35:18,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:35:28,412 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:35:38,491 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:35:48,580 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:35:58,664 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:36:08,741 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:36:18,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:36:28,901 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:36:38,980 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:36:49,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:36:59,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:37:09,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:37:19,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:37:29,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:37:39,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:37:49,541 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:37:59,620 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:38:09,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:38:19,781 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:38:29,861 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:38:39,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:38:50,023 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:39:00,100 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:39:10,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:39:20,263 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:39:30,342 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:39:40,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:39:50,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
+2025-11-11 00:40:00,580 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8360973337:AAGY8sWvbJmY48_dlEGeMB5iakPm91ANxp4/getUpdates "HTTP/1.1 200 OK"
